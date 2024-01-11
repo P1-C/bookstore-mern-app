@@ -1,4 +1,3 @@
-import { useState } from "react"
 import { Routes, Route } from 'react-router-dom'
 import Home from "./pages/Home"
 import CreateBook from "./pages/CreateBook"
@@ -8,8 +7,6 @@ import DeleteBook from "./pages/DeleteBook"
 
 
 const App = () => {
-
-  useState()
 
   return (
       <Routes>
